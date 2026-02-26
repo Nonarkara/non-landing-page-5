@@ -72,9 +72,13 @@
       </div>
     </div>
 
-    <!-- ═══ FULL-BLEED PORTRAIT ═══ -->
-    <figure class="bleed-photo">
-      <img data-media="hero_main" alt="Portrait of Non" fetchpriority="high">
+    <!-- ═══ HERO PHOTO MOSAIC ═══ -->
+    <figure class="photo-mosaic photo-mosaic--hero">
+      <img class="mosaic-main" data-media="hero_main" alt="Portrait of Non" fetchpriority="high">
+      <img data-media="hero_mosaic_1" alt="Non delivering a lecture" loading="lazy">
+      <img data-media="hero_mosaic_2" alt="Award ceremony" loading="lazy">
+      <img data-media="hero_mosaic_3" alt="SLIC at Tomorrow City Shanghai" loading="lazy">
+      <img data-media="hero_mosaic_4" alt="Shanghai fieldwork" loading="lazy">
     </figure>
 
     <!-- ═══ NON-FICTION: Journey ═══ -->
@@ -121,9 +125,16 @@
       </div>
     </section>
 
-    <!-- ═══ FULL-BLEED FIELDWORK ═══ -->
-    <figure class="bleed-photo">
-      <img data-media="fieldwork" alt="Fieldwork in Shanghai" loading="lazy">
+    <!-- ═══ FIELDWORK PHOTO MOSAIC ═══ -->
+    <figure class="photo-mosaic photo-mosaic--fieldwork">
+      <img class="mosaic-main" data-media="fieldwork" alt="Shanghai fieldwork" loading="lazy">
+      <img data-media="fieldwork_s1" alt="Shanghai neighborhood" loading="lazy">
+      <img data-media="fieldwork_s2" alt="Shanghai community" loading="lazy">
+      <div class="mosaic-bottom-row">
+        <img data-media="fieldwork_b1" alt="Shanghai fieldwork" loading="lazy">
+        <img data-media="fieldwork_b2" alt="Shanghai fieldwork" loading="lazy">
+        <img data-media="fieldwork_b3" alt="Shanghai fieldwork" loading="lazy">
+      </div>
     </figure>
 
     <!-- ═══ NON-STOP (DARK SECTION) ═══ -->
@@ -159,10 +170,47 @@
       </div>
     </section>
 
-    <!-- ═══ FULL-BLEED STAGE ═══ -->
-    <figure class="bleed-photo">
-      <img data-media="work_main" alt="Non on stage" loading="lazy">
+    <!-- ═══ SLIC/TEACHING PHOTO MOSAIC ═══ -->
+    <figure class="photo-mosaic photo-mosaic--slic">
+      <img class="mosaic-main" data-media="slic_main" alt="SLIC team" loading="lazy">
+      <img data-media="slic_s1" alt="Sustainability Expo" loading="lazy">
+      <img data-media="slic_s2" alt="Metaverse classroom" loading="lazy">
+      <div class="mosaic-bottom-row">
+        <img data-media="slic_b1" alt="Workshop facilitation" loading="lazy">
+        <img data-media="slic_b2" alt="depa collaboration" loading="lazy">
+      </div>
     </figure>
+
+    <!-- ═══ NON-CONVENTIONAL: Design Thinking Impact ═══ -->
+    <section class="story">
+      <h2 class="non-word"><span class="non-prefix">NON-</span><span data-i18n="conventionalWord"></span></h2>
+      <div class="story-text">
+        <p data-i18n="conventionalIntro"></p>
+      </div>
+      <div class="audience-grid">
+        <div class="audience-card stagger" data-i18n="audBanks"></div>
+        <div class="audience-card stagger" data-i18n="audGov"></div>
+        <div class="audience-card stagger" data-i18n="audPublic"></div>
+        <div class="audience-card stagger" data-i18n="audBankrupt"></div>
+        <div class="audience-card stagger" data-i18n="audSchools"></div>
+        <div class="audience-card stagger" data-i18n="audEngineers"></div>
+        <div class="audience-card stagger" data-i18n="audNurses"></div>
+        <div class="audience-card stagger" data-i18n="audLawyers"></div>
+        <div class="audience-card stagger" data-i18n="audDigital"></div>
+      </div>
+      <div class="case-study stagger">
+        <span class="case-study-kicker" data-i18n="tonklaKicker"></span>
+        <h4 data-i18n="tonklaTitle"></h4>
+        <p data-i18n="tonklaDesc"></p>
+        <blockquote data-i18n="tonklaQuote"></blockquote>
+      </div>
+      <figure class="photo-mosaic photo-mosaic--grid4">
+        <img data-media="workshop_1" alt="Workshop" loading="lazy">
+        <img data-media="workshop_2" alt="Workshop" loading="lazy">
+        <img data-media="workshop_3" alt="Workshop" loading="lazy">
+        <img data-media="workshop_4" alt="Workshop" loading="lazy">
+      </figure>
+    </section>
 
     <!-- ═══ NON-TRIVIAL: Research ═══ -->
     <section class="story">
@@ -208,9 +256,12 @@
       </div>
     </section>
 
-    <!-- ═══ FULL-BLEED NOVEL ═══ -->
-    <figure class="bleed-photo">
-      <img data-media="writing" alt="Designated Survivor" loading="lazy">
+    <!-- ═══ NOVEL COVERS MOSAIC ═══ -->
+    <figure class="photo-mosaic photo-mosaic--row4">
+      <img data-media="novel_1" alt="Designated Survivor cover" loading="lazy">
+      <img data-media="novel_2" alt="Designated Survivor scene" loading="lazy">
+      <img data-media="novel_3" alt="Designated Survivor scene" loading="lazy">
+      <img data-media="novel_4" alt="Designated Survivor scene" loading="lazy">
     </figure>
 
     <!-- ═══ MARQUEE 2 (REVERSE) ═══ -->
@@ -242,6 +293,13 @@
       <div id="steal-list" class="steal-list"></div>
     </section>
 
+    <!-- ═══ NON-RESTRICTED: Downloads ═══ -->
+    <section class="story">
+      <h2 class="non-word"><span class="non-prefix">NON-</span><span data-i18n="restrictedWord"></span></h2>
+      <p class="story-intro" data-i18n="restrictedIntro"></p>
+      <div id="download-grid" class="download-grid"></div>
+    </section>
+
     <!-- ═══ NON-NEGOTIABLE ═══ -->
     <section class="story">
       <h2 class="non-word"><span class="non-prefix">NON-</span><span data-i18n="proofWord"></span></h2>
@@ -253,6 +311,26 @@
         <img data-media="proof_d" alt="Stage interview" loading="lazy">
         <img data-media="proof_e" alt="Workshop" loading="lazy">
       </div>
+    </section>
+
+    <!-- ═══ NON-ORDINARY: Education ═══ -->
+    <section class="story">
+      <h2 class="non-word"><span class="non-prefix">NON-</span><span data-i18n="ordinaryWord"></span></h2>
+      <figure class="photo-mosaic photo-mosaic--row5">
+        <img data-media="life_1" alt="Young Non" loading="lazy">
+        <img data-media="life_2" alt="Harvard graduation" loading="lazy">
+        <img data-media="life_3" alt="Oxford" loading="lazy">
+        <img data-media="life_4" alt="Professional" loading="lazy">
+        <img data-media="life_5" alt="Recent" loading="lazy">
+      </figure>
+      <ul class="edu-list">
+        <li class="edu-item stagger"><span class="edu-school">OXFORD</span><span class="edu-degree">MSt</span></li>
+        <li class="edu-item stagger"><span class="edu-school">HARVARD</span><span class="edu-degree" data-i18n="eduPhD"></span></li>
+        <li class="edu-item stagger"><span class="edu-school">HARVARD</span><span class="edu-degree" data-i18n="eduALM"></span></li>
+        <li class="edu-item stagger"><span class="edu-school">HARVARD</span><span class="edu-degree" data-i18n="eduMDesS"></span></li>
+        <li class="edu-item stagger"><span class="edu-school">MIT</span><span class="edu-degree" data-i18n="eduMIT"></span></li>
+        <li class="edu-item stagger"><span class="edu-school">KMITL</span><span class="edu-degree" data-i18n="eduKMITL"></span></li>
+      </ul>
     </section>
 
     <!-- ═══ NON-HIDING ═══ -->
@@ -293,7 +371,14 @@
   </main>
 
   <footer class="site-footer">
-    <p data-i18n="footer"></p>
+    <div class="footer-row">
+      <p data-i18n="footer"></p>
+      <span class="footer-clock" id="bkk-clock"></span>
+    </div>
+    <div class="footer-downloads">
+      <a href="CVNon ARKARAPRASERTKUL UPDATED July 2018.pdf" download data-i18n="footerCV"></a>
+      <a href="Non Thai CV Oct 2023.pdf" download data-i18n="footerCVThai"></a>
+    </div>
   </footer>
 
   <script src="script.js"></script>

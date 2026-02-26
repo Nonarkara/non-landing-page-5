@@ -4,7 +4,7 @@
    ══════════════════════════════════════════ */
 
 const CONTENT_POLICY = {
-  excludeFolders: ["Family", "Commencement photos", "Non's Otters Transcription", "Transcripts from Otter"],
+  excludeFolders: ["Family", "Non's Otters Transcription", "Transcripts from Otter"],
   excludePatterns: ["client_secret", ".json.txt", "ngrok_recovery_codes", "IMG_0960.JPG", "IMG_0971.JPG", "IMG_0974.JPG"]
 };
 
@@ -22,7 +22,46 @@ const FEATURED_MEDIA = [
   { path: "Portrait photos/IMG_7460.JPG", section: "contact_portrait", alt: "Non Arkaraprasertkul" },
   { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(1).jpg", section: "gallery_a", alt: "Shanghai fieldwork" },
   { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(5).jpg", section: "gallery_b", alt: "Shanghai fieldwork" },
-  { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(15).jpg", section: "gallery_c", alt: "Shanghai fieldwork" }
+  { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(15).jpg", section: "gallery_c", alt: "Shanghai fieldwork" },
+
+  // Hero mosaic additions
+  { path: "Lecture photos/DAY1_0368.jpg", section: "hero_mosaic_1", alt: "Non delivering a lecture" },
+  { path: "Awards photos/8T9A2486-opq3225169366.jpg", section: "hero_mosaic_2", alt: "Award ceremony" },
+  { path: "SLIC/SLIC at Tomorrow City China Shanghai 2025.jpg", section: "hero_mosaic_3", alt: "SLIC at Tomorrow City Shanghai" },
+  { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(2).jpg", section: "hero_mosaic_4", alt: "Shanghai fieldwork" },
+
+  // Fieldwork mosaic additions
+  { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(28).jpg", section: "fieldwork_s1", alt: "Shanghai neighborhood" },
+  { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(3).jpg", section: "fieldwork_s2", alt: "Shanghai community" },
+  { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(12).jpg", section: "fieldwork_b1", alt: "Shanghai fieldwork" },
+  { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(14).jpg", section: "fieldwork_b2", alt: "Shanghai fieldwork" },
+  { path: "Fieldwork in Shanghai 2013 - 2015/Fieldwork in Shanghai 2013 - 2015(16).jpg", section: "fieldwork_b3", alt: "Shanghai fieldwork" },
+
+  // SLIC mosaic additions
+  { path: "SLIC/SLIC FORMATIONS 5.JPG", section: "slic_main", alt: "SLIC team" },
+  { path: "SLIC/SLICx 2025 at Sustainability Expo (SX) at Queen Sirikit Convention Center.jpg", section: "slic_s1", alt: "Sustainability Expo" },
+  { path: "SLIC/Metaverse classroom.jpg", section: "slic_s2", alt: "Metaverse classroom" },
+  { path: "Lecture photos/2022-04-18 16.03.33.jpg", section: "slic_b1", alt: "Workshop facilitation" },
+  { path: "SLIC/SLIC x depa collaboration.JPG", section: "slic_b2", alt: "depa collaboration" },
+
+  // Novel covers
+  { path: "Designated Survivor Novel/ChatGPT Image Feb 20, 2026, 02_41_56 PM.png", section: "novel_1", alt: "Designated Survivor cover" },
+  { path: "Designated Survivor Novel/ChatGPT Image Feb 21, 2026, 12_32_11 PM.png", section: "novel_2", alt: "Designated Survivor scene" },
+  { path: "Designated Survivor Novel/ChatGPT Image Feb 22, 2026, 02_06_32 AM.png", section: "novel_3", alt: "Designated Survivor scene" },
+  { path: "Designated Survivor Novel/ChatGPT Image Feb 20, 2026, 02_42_59 PM.png", section: "novel_4", alt: "Designated Survivor scene" },
+
+  // Workshop photos (NON-conventional)
+  { path: "Lecture photos/2022-04-18 16.05.09-1.jpg", section: "workshop_1", alt: "Workshop" },
+  { path: "Lecture photos/426F403A-0A70-49F6-9311-D367B6508D22.jpeg", section: "workshop_2", alt: "Workshop" },
+  { path: "Lecture photos/IMG_0206  (52).JPG", section: "workshop_3", alt: "Workshop" },
+  { path: "Awards photos/JSCF2025-2529.jpg", section: "workshop_4", alt: "International forum" },
+
+  // Life stages (NON-ordinary)
+  { path: "Commencement photos/Non1.jpg", section: "life_1", alt: "Young Non" },
+  { path: "Commencement photos/2021-05-26 19.30.50.jpg", section: "life_2", alt: "Harvard graduation" },
+  { path: "Commencement photos/2023-05-17 14.18.57.jpg", section: "life_3", alt: "Oxford" },
+  { path: "Portrait photos/Profile pictures.jpg", section: "life_4", alt: "Professional" },
+  { path: "Portrait photos/IMG_7461.JPG", section: "life_5", alt: "Recent" }
 ];
 
 /* ── RESEARCH PUBLICATIONS ── */
@@ -156,6 +195,35 @@ const STEAL_IDEAS = [
   }
 ];
 
+/* ── DOWNLOADABLE RESOURCES ── */
+
+const DOWNLOADABLE_RESOURCES = [
+  {
+    titleKey: "dl1Title",
+    descKey: "dl1Desc",
+    file: "Downloadable resources/ASCN Report (2019) depa Thailand.pdf",
+    size: "3.2 MB"
+  },
+  {
+    titleKey: "dl2Title",
+    descKey: "dl2Desc",
+    file: "Downloadable resources/Smart City Thailand Hitachi Review.pdf",
+    size: "820 KB"
+  },
+  {
+    titleKey: "dl3Title",
+    descKey: "dl3Desc",
+    file: "Downloadable resources/theaseanmagazine.asean.org-Non Arkaraprasertkul, PhD - The ASEAN Magazine.pdf",
+    size: "416 KB"
+  },
+  {
+    titleKey: "dl4Title",
+    descKey: "dl4Desc",
+    file: "Downloadable resources/[US - depa] Smart City Primer.pdf",
+    size: "16.8 MB"
+  }
+];
+
 /* ══════════════════════════════════
    I18N
    ══════════════════════════════════ */
@@ -245,6 +313,44 @@ const I18N = {
     stealCopy: "Copy",
     stealCopied: "Copied!",
 
+    // NON-conventional
+    conventionalWord: "conventional",
+    conventionalIntro: "Bringing design thinking to people who don\u2019t expect it. From bankers to nurses, from government officials to school principals\u2009\u2014\u2009Non facilitates strategic workshops that translate abstract methods into actionable operations.",
+    audBanks: "Banks",
+    audGov: "Government",
+    audPublic: "Public health",
+    audBankrupt: "Bankruptcy courts",
+    audSchools: "Schools",
+    audEngineers: "Engineers",
+    audNurses: "Nurses",
+    audLawyers: "Lawyers",
+    audDigital: "Digital agencies",
+    tonklaKicker: "Case study",
+    tonklaTitle: "Tonkla School: Design thinking for K\u201312 educators",
+    tonklaDesc: "A workshop series with Tonkla School that trained teachers to apply design thinking in classroom curriculum design, producing measurable improvement in student engagement and project-based learning outcomes.",
+    tonklaQuote: "\u201CWe stopped teaching subjects and started solving problems.\u201D \u2014 Tonkla teacher",
+
+    // NON-restricted
+    restrictedWord: "restricted",
+    restrictedIntro: "Reports and articles I authored or co-authored on smart cities, digital government, and ASEAN urban strategy. Download freely.",
+    dl1Title: "ASCN Smart City Report 2019",
+    dl1Desc: "ASEAN Smart Cities Network status report, co-authored with depa Thailand. Covers frameworks, KPIs, and case studies across 26 pilot cities.",
+    dl2Title: "Smart City Initiatives in Thailand (Hitachi Review)",
+    dl2Desc: "Peer-reviewed article on Thailand\u2019s smart city data platform architecture and provincial deployment strategy.",
+    dl3Title: "The ASEAN Magazine Interview",
+    dl3Desc: "Feature interview on Non\u2019s role in ASEAN digital governance, smart city policy, and cross-border urban collaboration.",
+    dl4Title: "Smart City Primer (US\u2013depa)",
+    dl4Desc: "Comprehensive primer on smart city concepts, technology stacks, and implementation frameworks for Thai municipal leaders.",
+    dlDownload: "Download",
+
+    // NON-ordinary
+    ordinaryWord: "ordinary",
+    eduPhD: "PhD, Inner Asian & Altaic Studies (Anthropology focus)",
+    eduALM: "ALM, Liberal Arts (Government)",
+    eduMDesS: "MDesS, Design Studies",
+    eduMIT: "MArch, Architecture",
+    eduKMITL: "B.Arch, Architecture (First-Class Honors)",
+
     // Proof
     proofWord: "negotiable",
     proofIntro: "From command-room whiteboards to international stages. Execution left visible traces in policy, operations, and coalition work.",
@@ -255,7 +361,11 @@ const I18N = {
     contactDirect: "Direct",
     contactVerify: "Verify",
 
-    footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93"
+    // Footer
+    footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93",
+    footerCV: "CV (English)",
+    footerCVThai: "CV (Thai)",
+    bkkTime: "Bangkok"
   },
 
   th: {
@@ -336,6 +446,44 @@ const I18N = {
     stealCopy: "\u0E04\u0E31\u0E14\u0E25\u0E2D\u0E01",
     stealCopied: "\u0E04\u0E31\u0E14\u0E25\u0E2D\u0E01\u0E41\u0E25\u0E49\u0E27!",
 
+    // NON-conventional
+    conventionalWord: "conventional",
+    conventionalIntro: "\u0E19\u0E33 design thinking \u0E44\u0E1B\u0E2A\u0E39\u0E48\u0E04\u0E19\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E04\u0E32\u0E14\u0E04\u0E34\u0E14 \u0E08\u0E32\u0E01\u0E19\u0E32\u0E22\u0E18\u0E19\u0E32\u0E04\u0E32\u0E23\u0E16\u0E36\u0E07\u0E1E\u0E22\u0E32\u0E1A\u0E32\u0E25 \u0E08\u0E32\u0E01\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E16\u0E36\u0E07\u0E1C\u0E39\u0E49\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19 \u0E19\u0E19\u0E2D\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E41\u0E25\u0E30\u0E2D\u0E33\u0E19\u0E27\u0E22\u0E04\u0E27\u0E32\u0E21\u0E40\u0E27\u0E34\u0E23\u0E4C\u0E04\u0E0A\u0E47\u0E2D\u0E1B\u0E40\u0E0A\u0E34\u0E07\u0E22\u0E38\u0E17\u0E18\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C",
+    audBanks: "\u0E18\u0E19\u0E32\u0E04\u0E32\u0E23",
+    audGov: "\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E23\u0E31\u0E10",
+    audPublic: "\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E2A\u0E38\u0E02",
+    audBankrupt: "\u0E28\u0E32\u0E25\u0E25\u0E49\u0E21\u0E25\u0E30\u0E25\u0E32\u0E22",
+    audSchools: "\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19",
+    audEngineers: "\u0E27\u0E34\u0E28\u0E27\u0E01\u0E23",
+    audNurses: "\u0E1E\u0E22\u0E32\u0E1A\u0E32\u0E25",
+    audLawyers: "\u0E17\u0E19\u0E32\u0E22\u0E04\u0E27\u0E32\u0E21",
+    audDigital: "\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E14\u0E34\u0E08\u0E34\u0E17\u0E31\u0E25",
+    tonklaKicker: "\u0E01\u0E23\u0E13\u0E35\u0E28\u0E36\u0E01\u0E29\u0E32",
+    tonklaTitle: "\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19\u0E15\u0E49\u0E19\u0E01\u0E25\u0E49\u0E32: Design thinking \u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E04\u0E23\u0E39 K\u201312",
+    tonklaDesc: "\u0E40\u0E27\u0E34\u0E23\u0E4C\u0E04\u0E0A\u0E47\u0E2D\u0E1B\u0E17\u0E35\u0E48\u0E1D\u0E36\u0E01\u0E04\u0E23\u0E39\u0E43\u0E2B\u0E49\u0E43\u0E0A\u0E49 design thinking \u0E43\u0E19\u0E01\u0E32\u0E23\u0E2D\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E2B\u0E25\u0E31\u0E01\u0E2A\u0E39\u0E15\u0E23 \u0E1C\u0E25\u0E25\u0E31\u0E1E\u0E18\u0E4C\u0E27\u0E31\u0E14\u0E44\u0E14\u0E49\u0E43\u0E19\u0E01\u0E32\u0E23\u0E21\u0E35\u0E2A\u0E48\u0E27\u0E19\u0E23\u0E48\u0E27\u0E21\u0E02\u0E2D\u0E07\u0E19\u0E31\u0E01\u0E40\u0E23\u0E35\u0E22\u0E19\u0E41\u0E25\u0E30\u0E01\u0E32\u0E23\u0E40\u0E23\u0E35\u0E22\u0E19\u0E23\u0E39\u0E49\u0E41\u0E1A\u0E1A\u0E42\u0E1B\u0E23\u0E40\u0E08\u0E01\u0E15\u0E4C",
+    tonklaQuote: "\u201C\u0E40\u0E23\u0E32\u0E40\u0E25\u0E34\u0E01\u0E2A\u0E2D\u0E19\u0E27\u0E34\u0E0A\u0E32\u0E41\u0E25\u0E49\u0E27\u0E40\u0E23\u0E34\u0E48\u0E21\u0E41\u0E01\u0E49\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u201D \u2014 \u0E04\u0E23\u0E39\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19\u0E15\u0E49\u0E19\u0E01\u0E25\u0E49\u0E32",
+
+    // NON-restricted
+    restrictedWord: "restricted",
+    restrictedIntro: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E41\u0E25\u0E30\u0E1A\u0E17\u0E04\u0E27\u0E32\u0E21\u0E17\u0E35\u0E48\u0E40\u0E02\u0E35\u0E22\u0E19\u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E48\u0E27\u0E21\u0E40\u0E02\u0E35\u0E22\u0E19\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E31\u0E08\u0E09\u0E23\u0E34\u0E22\u0E30 \u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E14\u0E34\u0E08\u0E34\u0E17\u0E31\u0E25 \u0E41\u0E25\u0E30\u0E22\u0E38\u0E17\u0E18\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E32\u0E40\u0E0B\u0E35\u0E22\u0E19 \u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14\u0E44\u0E14\u0E49\u0E40\u0E25\u0E22",
+    dl1Title: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19 ASCN Smart City 2019",
+    dl1Desc: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E2A\u0E16\u0E32\u0E19\u0E30\u0E40\u0E04\u0E23\u0E37\u0E2D\u0E02\u0E48\u0E32\u0E22\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E31\u0E08\u0E09\u0E23\u0E34\u0E22\u0E30\u0E2D\u0E32\u0E40\u0E0B\u0E35\u0E22\u0E19 \u0E23\u0E48\u0E27\u0E21\u0E40\u0E02\u0E35\u0E22\u0E19\u0E01\u0E31\u0E1A depa",
+    dl2Title: "\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E31\u0E08\u0E09\u0E23\u0E34\u0E22\u0E30\u0E44\u0E17\u0E22 (Hitachi Review)",
+    dl2Desc: "\u0E1A\u0E17\u0E04\u0E27\u0E32\u0E21\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E2A\u0E16\u0E32\u0E1B\u0E31\u0E15\u0E22\u0E01\u0E23\u0E23\u0E21\u0E41\u0E1E\u0E25\u0E15\u0E1F\u0E2D\u0E23\u0E4C\u0E21\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E41\u0E25\u0E30\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14",
+    dl3Title: "\u0E2A\u0E31\u0E21\u0E20\u0E32\u0E29\u0E13\u0E4C The ASEAN Magazine",
+    dl3Desc: "\u0E2A\u0E31\u0E21\u0E20\u0E32\u0E29\u0E13\u0E4C\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E1A\u0E17\u0E1A\u0E32\u0E17\u0E43\u0E19\u0E18\u0E23\u0E23\u0E21\u0E32\u0E20\u0E34\u0E1A\u0E32\u0E25\u0E14\u0E34\u0E08\u0E34\u0E17\u0E31\u0E25\u0E2D\u0E32\u0E40\u0E0B\u0E35\u0E22\u0E19\u0E41\u0E25\u0E30\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E31\u0E08\u0E09\u0E23\u0E34\u0E22\u0E30",
+    dl4Title: "\u0E04\u0E39\u0E48\u0E21\u0E37\u0E2D Smart City (US\u2013depa)",
+    dl4Desc: "\u0E04\u0E39\u0E48\u0E21\u0E37\u0E2D\u0E09\u0E1A\u0E31\u0E1A\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E1C\u0E39\u0E49\u0E1A\u0E23\u0E34\u0E2B\u0E32\u0E23\u0E17\u0E49\u0E2D\u0E07\u0E16\u0E34\u0E48\u0E19\u0E44\u0E17\u0E22",
+    dlDownload: "\u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14",
+
+    // NON-ordinary
+    ordinaryWord: "ordinary",
+    eduPhD: "\u0E1B\u0E23\u0E34\u0E0D\u0E0D\u0E32\u0E40\u0E2D\u0E01 \u0E2D\u0E31\u0E25\u0E44\u0E15\u0E2D\u0E34\u0E04\u0E28\u0E36\u0E01\u0E29\u0E32 (\u0E40\u0E19\u0E49\u0E19\u0E21\u0E32\u0E19\u0E38\u0E29\u0E22\u0E27\u0E34\u0E17\u0E22\u0E32)",
+    eduALM: "ALM, \u0E28\u0E34\u0E25\u0E1B\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C (\u0E23\u0E31\u0E10\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C)",
+    eduMDesS: "MDesS, \u0E01\u0E32\u0E23\u0E2D\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E28\u0E36\u0E01\u0E29\u0E32",
+    eduMIT: "MArch, \u0E2A\u0E16\u0E32\u0E1B\u0E31\u0E15\u0E22\u0E01\u0E23\u0E23\u0E21\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C",
+    eduKMITL: "B.Arch, \u0E2A\u0E16\u0E32\u0E1B\u0E31\u0E15\u0E22\u0E01\u0E23\u0E23\u0E21\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C (\u0E40\u0E01\u0E35\u0E22\u0E23\u0E15\u0E34\u0E19\u0E34\u0E22\u0E21\u0E2D\u0E31\u0E19\u0E14\u0E31\u0E1A\u0E2B\u0E19\u0E36\u0E48\u0E07)",
+
     proofWord: "negotiable",
     proofIntro: "\u0E08\u0E32\u0E01\u0E01\u0E23\u0E30\u0E14\u0E32\u0E19\u0E27\u0E32\u0E07\u0E41\u0E1C\u0E19\u0E2A\u0E39\u0E48\u0E40\u0E27\u0E17\u0E35\u0E23\u0E30\u0E14\u0E31\u0E1A\u0E19\u0E32\u0E19\u0E32\u0E0A\u0E32\u0E15\u0E34 \u0E1C\u0E25\u0E07\u0E32\u0E19\u0E17\u0E34\u0E49\u0E07\u0E23\u0E48\u0E2D\u0E07\u0E23\u0E2D\u0E22\u0E43\u0E19\u0E19\u0E42\u0E22\u0E1A\u0E32\u0E22 \u0E1B\u0E0F\u0E34\u0E1A\u0E31\u0E15\u0E34\u0E01\u0E32\u0E23 \u0E41\u0E25\u0E30\u0E04\u0E27\u0E32\u0E21\u0E23\u0E48\u0E27\u0E21\u0E21\u0E37\u0E2D",
 
@@ -344,7 +492,10 @@ const I18N = {
     contactDirect: "\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E42\u0E14\u0E22\u0E15\u0E23\u0E07",
     contactVerify: "\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A",
 
-    footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93"
+    footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93",
+    footerCV: "CV (\u0E2D\u0E31\u0E07\u0E01\u0E24\u0E29)",
+    footerCVThai: "CV (\u0E44\u0E17\u0E22)",
+    bkkTime: "\u0E01\u0E23\u0E38\u0E07\u0E40\u0E17\u0E1E"
   },
 
   zh: {
@@ -418,6 +569,44 @@ const I18N = {
     steal6Title: "\u6570\u5B57\u7D20\u517B\u8BAD\u7EC3\u8425", steal6Desc: "8\u5468\u6DF7\u5408\u8BFE\u7A0B\u3002",
     stealCopy: "\u590D\u5236", stealCopied: "\u5DF2\u590D\u5236\uFF01",
 
+    // NON-conventional
+    conventionalWord: "conventional",
+    conventionalIntro: "\u5C06\u8BBE\u8BA1\u601D\u7EF4\u5E26\u7ED9\u610F\u60F3\u4E0D\u5230\u7684\u4EBA\u3002\u4ECE\u94F6\u884C\u5BB6\u5230\u62A4\u58EB\uFF0C\u4ECE\u653F\u5E9C\u5B98\u5458\u5230\u6821\u957F\u2014\u2014\u519C\u4E3B\u6301\u6218\u7565\u5DE5\u4F5C\u574A\uFF0C\u5C06\u62BD\u8C61\u65B9\u6CD5\u8F6C\u5316\u4E3A\u53EF\u6267\u884C\u7684\u8FD0\u8425\u3002",
+    audBanks: "\u94F6\u884C",
+    audGov: "\u653F\u5E9C",
+    audPublic: "\u516C\u5171\u536B\u751F",
+    audBankrupt: "\u7834\u4EA7\u6CD5\u9662",
+    audSchools: "\u5B66\u6821",
+    audEngineers: "\u5DE5\u7A0B\u5E08",
+    audNurses: "\u62A4\u58EB",
+    audLawyers: "\u5F8B\u5E08",
+    audDigital: "\u6570\u5B57\u673A\u6784",
+    tonklaKicker: "\u6848\u4F8B\u7814\u7A76",
+    tonklaTitle: "\u6839\u82D7\u5B66\u6821\uFF1A\u9762\u5411K-12\u6559\u5E08\u7684\u8BBE\u8BA1\u601D\u7EF4",
+    tonklaDesc: "\u4E0E\u6839\u82D7\u5B66\u6821\u5408\u4F5C\u7684\u5DE5\u4F5C\u574A\u7CFB\u5217\uFF0C\u57F9\u8BAD\u6559\u5E08\u5C06\u8BBE\u8BA1\u601D\u7EF4\u5E94\u7528\u4E8E\u8BFE\u7A0B\u8BBE\u8BA1\u3002",
+    tonklaQuote: "\u201C\u6211\u4EEC\u4E0D\u518D\u6559\u5B66\u79D1\uFF0C\u5F00\u59CB\u89E3\u51B3\u95EE\u9898\u3002\u201D \u2014 \u6839\u82D7\u6559\u5E08",
+
+    // NON-restricted
+    restrictedWord: "restricted",
+    restrictedIntro: "\u6211\u64B0\u5199\u6216\u5408\u8457\u7684\u667A\u6167\u57CE\u5E02\u3001\u6570\u5B57\u653F\u5E9C\u548C\u4E1C\u76DF\u57CE\u5E02\u6218\u7565\u62A5\u544A\u3002\u514D\u8D39\u4E0B\u8F7D\u3002",
+    dl1Title: "ASCN\u667A\u6167\u57CE\u5E02\u62A5\u544A 2019",
+    dl1Desc: "\u4E1C\u76DF\u667A\u6167\u57CE\u5E02\u7F51\u7EDC\u72B6\u6001\u62A5\u544A\uFF0C\u4E0Edepa\u5408\u8457\u300226\u4E2A\u8BD5\u70B9\u57CE\u5E02\u6848\u4F8B\u3002",
+    dl2Title: "\u6CF0\u56FD\u667A\u6167\u57CE\u5E02 (Hitachi Review)",
+    dl2Desc: "\u5173\u4E8E\u6CF0\u56FD\u667A\u6167\u57CE\u5E02\u6570\u636E\u5E73\u53F0\u67B6\u6784\u548C\u7701\u7EA7\u90E8\u7F72\u7684\u540C\u884C\u8BC4\u5BA1\u6587\u7AE0\u3002",
+    dl3Title: "\u4E1C\u76DF\u6742\u5FD7\u91C7\u8BBF",
+    dl3Desc: "\u5173\u4E8E\u519C\u5728\u4E1C\u76DF\u6570\u5B57\u6CBB\u7406\u548C\u8DE8\u5883\u57CE\u5E02\u5408\u4F5C\u4E2D\u89D2\u8272\u7684\u4E13\u9898\u91C7\u8BBF\u3002",
+    dl4Title: "\u667A\u6167\u57CE\u5E02\u5165\u95E8 (US\u2013depa)",
+    dl4Desc: "\u9762\u5411\u6CF0\u56FD\u5E02\u653F\u9886\u5BFC\u7684\u667A\u6167\u57CE\u5E02\u6982\u5FF5\u3001\u6280\u672F\u6808\u548C\u5B9E\u65BD\u6846\u67B6\u7EFC\u5408\u5165\u95E8\u3002",
+    dlDownload: "\u4E0B\u8F7D",
+
+    // NON-ordinary
+    ordinaryWord: "ordinary",
+    eduPhD: "\u535A\u58EB\uFF0C\u5185\u4E9A\u6D32\u4E0E\u963F\u5C14\u6CF0\u7814\u7A76\uFF08\u4EBA\u7C7B\u5B66\u65B9\u5411\uFF09",
+    eduALM: "ALM\uFF0C\u6587\u79D1\uFF08\u653F\u5E9C\u5B66\uFF09",
+    eduMDesS: "MDesS\uFF0C\u8BBE\u8BA1\u7814\u7A76",
+    eduMIT: "MArch\uFF0C\u5EFA\u7B51\u5B66",
+    eduKMITL: "B.Arch\uFF0C\u5EFA\u7B51\u5B66\uFF08\u4E00\u7B49\u8363\u8A89\uFF09",
+
     proofWord: "negotiable",
     proofIntro: "\u4ECE\u6307\u6325\u5BA4\u5230\u56FD\u9645\u8BBA\u575B\u3002\u6267\u884C\u5728\u653F\u7B56\u3001\u8FD0\u8425\u548C\u8054\u76DF\u5DE5\u4F5C\u4E2D\u7559\u4E0B\u4E86\u75D5\u8FF9\u3002",
 
@@ -426,7 +615,10 @@ const I18N = {
     contactDirect: "\u76F4\u63A5\u8054\u7CFB",
     contactVerify: "\u9A8C\u8BC1\u6E20\u9053",
 
-    footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93"
+    footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93",
+    footerCV: "CV\uFF08\u82F1\u6587\uFF09",
+    footerCVThai: "CV\uFF08\u6CF0\u6587\uFF09",
+    bkkTime: "\u66FC\u8C37"
   }
 };
 
@@ -554,6 +746,72 @@ function renderStealIdeas(lang) {
 }
 
 /* ══════════════════════════════════
+   DOWNLOADS
+   ══════════════════════════════════ */
+
+function renderDownloads(lang) {
+  const container = document.getElementById("download-grid");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const dlLabel = textFor(lang, "dlDownload");
+
+  DOWNLOADABLE_RESOURCES.forEach(res => {
+    const card = document.createElement("div");
+    card.className = "download-card stagger";
+
+    const h4 = document.createElement("h4");
+    h4.textContent = textFor(lang, res.titleKey);
+
+    const p = document.createElement("p");
+    p.textContent = textFor(lang, res.descKey);
+
+    const meta = document.createElement("div");
+    meta.className = "dl-meta";
+
+    const size = document.createElement("span");
+    size.className = "dl-size";
+    size.textContent = res.size;
+
+    const btn = document.createElement("a");
+    btn.className = "dl-btn";
+    btn.href = encodeURI(res.file);
+    btn.download = "";
+    btn.textContent = dlLabel;
+
+    meta.appendChild(size);
+    meta.appendChild(btn);
+    card.appendChild(h4);
+    card.appendChild(p);
+    card.appendChild(meta);
+    container.appendChild(card);
+  });
+}
+
+/* ══════════════════════════════════
+   BANGKOK CLOCK
+   ══════════════════════════════════ */
+
+function setupBangkokClock() {
+  const el = document.getElementById("bkk-clock");
+  if (!el) return;
+
+  function tick() {
+    const now = new Date();
+    const bkk = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Bangkok" }));
+    const h = String(bkk.getHours()).padStart(2, "0");
+    const m = String(bkk.getMinutes()).padStart(2, "0");
+    const s = String(bkk.getSeconds()).padStart(2, "0");
+    const lang = localStorage.getItem("nonLandingLang") || "en";
+    const city = textFor(lang, "bkkTime") || "Bangkok";
+    el.textContent = `${city} ${h}:${m}:${s}`;
+  }
+
+  tick();
+  setInterval(tick, 1000);
+}
+
+/* ══════════════════════════════════
    LANGUAGE
    ══════════════════════════════════ */
 
@@ -579,6 +837,7 @@ function setLanguage(lang) {
 
   renderStealIdeas(selected);
   renderPublications(selected);
+  renderDownloads(selected);
 }
 
 function setupLanguage() {
@@ -719,10 +978,11 @@ document.addEventListener("DOMContentLoaded", () => {
   setLanguage(savedLang);
 
   // Mark all story and photo sections as reveal targets
-  document.querySelectorAll(".story, .bleed-photo").forEach(el => el.classList.add("reveal"));
+  document.querySelectorAll(".story, .bleed-photo, .photo-mosaic").forEach(el => el.classList.add("reveal"));
   setupReveal();
 
   // Wild features
   setupCursor();
   setupDarkTopbar();
+  setupBangkokClock();
 });
