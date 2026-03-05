@@ -224,6 +224,59 @@ const DOWNLOADABLE_RESOURCES = [
   }
 ];
 
+/* ── BUILT APPS ── */
+
+const BUILT_APPS = [
+  {
+    titleKey: "app1Title",
+    descKey: "app1Desc",
+    typeKey: "appTypeDashboard",
+    stack: ["React", "Vite", "Mapbox", "D3"],
+    url: null,
+    github: null
+  },
+  {
+    titleKey: "app2Title",
+    descKey: "app2Desc",
+    typeKey: "appTypeBot",
+    stack: ["Node.js", "Gemini AI", "LINE", "Telegram"],
+    url: "https://city-reporter-bot-production.up.railway.app",
+    github: "https://github.com/Nonarkara/city-reporter-bot"
+  },
+  {
+    titleKey: "app3Title",
+    descKey: "app3Desc",
+    typeKey: "appTypeLanding",
+    stack: ["HTML", "CSS", "JS"],
+    url: null,
+    github: null
+  },
+  {
+    titleKey: "app4Title",
+    descKey: "app4Desc",
+    typeKey: "appTypeDirectory",
+    stack: ["Node.js", "Google Trends API"],
+    url: null,
+    github: null
+  },
+  {
+    titleKey: "app5Title",
+    descKey: "app5Desc",
+    typeKey: "appTypeHandbook",
+    stack: ["HTML", "CSS", "JS"],
+    url: null,
+    github: null
+  },
+  {
+    titleKey: "app6Title",
+    descKey: "app6Desc",
+    typeKey: "appTypePlatform",
+    stack: ["React", "Vite", "Supabase", "Gemini AI"],
+    url: null,
+    github: null
+  }
+];
+
 /* ══════════════════════════════════
    I18N
    ══════════════════════════════════ */
@@ -329,6 +382,30 @@ const I18N = {
     tonklaTitle: "Tonkla School: Design thinking for K\u201312 educators",
     tonklaDesc: "A workshop series with Tonkla School that trained teachers to apply design thinking in classroom curriculum design, producing measurable improvement in student engagement and project-based learning outcomes.",
     tonklaQuote: "\u201CWe stopped teaching subjects and started solving problems.\u201D \u2014 Tonkla teacher",
+
+    // NON-theoretical
+    theoreticalWord: "theoretical",
+    theoreticalIntro: "These aren\u2019t concepts on slides. They\u2019re apps, bots, and dashboards I built and shipped. Some run in production. All solve real problems.",
+    app1Title: "Tech Monitor",
+    app1Desc: "Real-time urban operations dashboard. Combines map layers, market data, conflict tracking, climate signals, and structured intelligence briefings into one operating picture.",
+    app2Title: "City Reporter AI Bot",
+    app2Desc: "Dual-platform civic engagement tool (LINE + Telegram). Citizens report city problems with photos; AI extracts location, classifies severity, routes to responders.",
+    app3Title: "ASEAN Smart Cities Network",
+    app3Desc: "Cinematic landing page for ASCN: city pulse dashboards, public metrics, people profiles, and source materials in one scrolling experience.",
+    app4Title: "Smart City Tech Hunt",
+    app4Desc: "Directory of 160+ smart city solutions across seven domains with live Google Trends pulse, partner logos, and curated resource library.",
+    app5Title: "Citizen-First City Handbook",
+    app5Desc: "Interactive ASEAN CSCO playbook forged under real flood pressure. Real stories and tools from city practitioners in Nakhon Si Thammarat.",
+    app6Title: "Air DnD",
+    app6Desc: "Bangkok after-dark discovery platform with live listing coverage, resilient fallback data, and a polished city-first experience.",
+    appTypeDashboard: "Dashboard",
+    appTypeBot: "AI Bot",
+    appTypeLanding: "Landing page",
+    appTypeDirectory: "Directory",
+    appTypeHandbook: "Handbook",
+    appTypePlatform: "Platform",
+    appLive: "Live",
+    appGitHub: "GitHub",
 
     // NON-restricted
     restrictedWord: "restricted",
@@ -463,6 +540,30 @@ const I18N = {
     tonklaDesc: "\u0E40\u0E27\u0E34\u0E23\u0E4C\u0E04\u0E0A\u0E47\u0E2D\u0E1B\u0E17\u0E35\u0E48\u0E1D\u0E36\u0E01\u0E04\u0E23\u0E39\u0E43\u0E2B\u0E49\u0E43\u0E0A\u0E49 design thinking \u0E43\u0E19\u0E01\u0E32\u0E23\u0E2D\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E2B\u0E25\u0E31\u0E01\u0E2A\u0E39\u0E15\u0E23 \u0E1C\u0E25\u0E25\u0E31\u0E1E\u0E18\u0E4C\u0E27\u0E31\u0E14\u0E44\u0E14\u0E49\u0E43\u0E19\u0E01\u0E32\u0E23\u0E21\u0E35\u0E2A\u0E48\u0E27\u0E19\u0E23\u0E48\u0E27\u0E21\u0E02\u0E2D\u0E07\u0E19\u0E31\u0E01\u0E40\u0E23\u0E35\u0E22\u0E19\u0E41\u0E25\u0E30\u0E01\u0E32\u0E23\u0E40\u0E23\u0E35\u0E22\u0E19\u0E23\u0E39\u0E49\u0E41\u0E1A\u0E1A\u0E42\u0E1B\u0E23\u0E40\u0E08\u0E01\u0E15\u0E4C",
     tonklaQuote: "\u201C\u0E40\u0E23\u0E32\u0E40\u0E25\u0E34\u0E01\u0E2A\u0E2D\u0E19\u0E27\u0E34\u0E0A\u0E32\u0E41\u0E25\u0E49\u0E27\u0E40\u0E23\u0E34\u0E48\u0E21\u0E41\u0E01\u0E49\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u201D \u2014 \u0E04\u0E23\u0E39\u0E42\u0E23\u0E07\u0E40\u0E23\u0E35\u0E22\u0E19\u0E15\u0E49\u0E19\u0E01\u0E25\u0E49\u0E32",
 
+    // NON-theoretical
+    theoreticalWord: "theoretical",
+    theoreticalIntro: "\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E48\u0E41\u0E04\u0E48\u0E41\u0E19\u0E27\u0E04\u0E34\u0E14\u0E1A\u0E19\u0E2A\u0E44\u0E25\u0E14\u0E4C \u0E41\u0E15\u0E48\u0E40\u0E1B\u0E47\u0E19\u0E41\u0E2D\u0E1B \u0E1A\u0E2D\u0E17 \u0E41\u0E25\u0E30\u0E41\u0E14\u0E0A\u0E1A\u0E2D\u0E23\u0E4C\u0E14\u0E17\u0E35\u0E48\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E41\u0E25\u0E30\u0E2A\u0E48\u0E07\u0E21\u0E2D\u0E1A\u0E08\u0E23\u0E34\u0E07 \u0E1A\u0E32\u0E07\u0E15\u0E31\u0E27\u0E23\u0E31\u0E19\u0E43\u0E19 production \u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14\u0E41\u0E01\u0E49\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u0E08\u0E23\u0E34\u0E07",
+    app1Title: "Tech Monitor",
+    app1Desc: "\u0E41\u0E14\u0E0A\u0E1A\u0E2D\u0E23\u0E4C\u0E14\u0E1B\u0E0F\u0E34\u0E1A\u0E31\u0E15\u0E34\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E41\u0E1A\u0E1A\u0E40\u0E23\u0E35\u0E22\u0E25\u0E44\u0E17\u0E21\u0E4C \u0E23\u0E27\u0E21\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48 \u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E15\u0E25\u0E32\u0E14 \u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E32\u0E21\u0E04\u0E27\u0E32\u0E21\u0E02\u0E31\u0E14\u0E41\u0E22\u0E49\u0E07 \u0E2A\u0E31\u0E0D\u0E0D\u0E32\u0E13\u0E20\u0E39\u0E21\u0E34\u0E2D\u0E32\u0E01\u0E32\u0E28 \u0E41\u0E25\u0E30\u0E2A\u0E23\u0E38\u0E1B\u0E02\u0E48\u0E32\u0E27\u0E01\u0E23\u0E2D\u0E07",
+    app2Title: "City Reporter AI Bot",
+    app2Desc: "\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D\u0E23\u0E31\u0E1A\u0E41\u0E08\u0E49\u0E07\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u0E40\u0E21\u0E37\u0E2D\u0E07 (LINE + Telegram) \u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E1B\u0E31\u0E0D\u0E2B\u0E32\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E20\u0E32\u0E1E AI \u0E14\u0E36\u0E07\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07 \u0E08\u0E31\u0E14\u0E2B\u0E21\u0E27\u0E14\u0E2B\u0E21\u0E39\u0E48 \u0E2A\u0E48\u0E07\u0E15\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E23\u0E31\u0E1A\u0E1C\u0E34\u0E14\u0E0A\u0E2D\u0E1A",
+    app3Title: "ASEAN Smart Cities Network",
+    app3Desc: "\u0E41\u0E25\u0E19\u0E14\u0E34\u0E49\u0E07\u0E40\u0E1E\u0E08\u0E41\u0E1A\u0E1A\u0E0B\u0E35\u0E40\u0E19\u0E21\u0E32\u0E15\u0E34\u0E01\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A ASCN: \u0E41\u0E14\u0E0A\u0E1A\u0E2D\u0E23\u0E4C\u0E14\u0E0A\u0E35\u0E1E\u0E08\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07 \u0E15\u0E31\u0E27\u0E0A\u0E35\u0E49\u0E27\u0E31\u0E14\u0E2A\u0E32\u0E18\u0E32\u0E23\u0E13\u0E30 \u0E42\u0E1B\u0E23\u0E44\u0E1F\u0E25\u0E4C\u0E1A\u0E38\u0E04\u0E04\u0E25 \u0E41\u0E25\u0E30\u0E41\u0E2B\u0E25\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25",
+    app4Title: "Smart City Tech Hunt",
+    app4Desc: "\u0E44\u0E14\u0E40\u0E23\u0E01\u0E17\u0E2D\u0E23\u0E35 160+ \u0E42\u0E0B\u0E25\u0E39\u0E0A\u0E31\u0E48\u0E19\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E31\u0E08\u0E09\u0E23\u0E34\u0E22\u0E30 7 \u0E42\u0E14\u0E40\u0E21\u0E19 \u0E1E\u0E23\u0E49\u0E2D\u0E21 Google Trends \u0E41\u0E1A\u0E1A\u0E40\u0E23\u0E35\u0E22\u0E25\u0E44\u0E17\u0E21\u0E4C",
+    app5Title: "Citizen-First City Handbook",
+    app5Desc: "\u0E04\u0E39\u0E48\u0E21\u0E37\u0E2D ASEAN CSCO \u0E41\u0E1A\u0E1A\u0E2D\u0E34\u0E19\u0E40\u0E17\u0E2D\u0E23\u0E4C\u0E41\u0E2D\u0E04\u0E17\u0E35\u0E1F \u0E2A\u0E23\u0E49\u0E32\u0E07\u0E02\u0E36\u0E49\u0E19\u0E43\u0E19\u0E2A\u0E16\u0E32\u0E19\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E19\u0E49\u0E33\u0E17\u0E48\u0E27\u0E21\u0E08\u0E23\u0E34\u0E07 \u0E19\u0E04\u0E23\u0E28\u0E23\u0E35\u0E18\u0E23\u0E23\u0E21\u0E23\u0E32\u0E0A",
+    app6Title: "Air DnD",
+    app6Desc: "\u0E41\u0E1E\u0E25\u0E15\u0E1F\u0E2D\u0E23\u0E4C\u0E21\u0E04\u0E49\u0E19\u0E2B\u0E32\u0E01\u0E23\u0E38\u0E07\u0E40\u0E17\u0E1E\u0E22\u0E32\u0E21\u0E04\u0E48\u0E33\u0E04\u0E37\u0E19 \u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E2A\u0E14\u0E41\u0E1A\u0E1A\u0E40\u0E23\u0E35\u0E22\u0E25\u0E44\u0E17\u0E21\u0E4C\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E23\u0E30\u0E1A\u0E1A\u0E2A\u0E33\u0E23\u0E2D\u0E07",
+    appTypeDashboard: "\u0E41\u0E14\u0E0A\u0E1A\u0E2D\u0E23\u0E4C\u0E14",
+    appTypeBot: "AI Bot",
+    appTypeLanding: "\u0E41\u0E25\u0E19\u0E14\u0E34\u0E49\u0E07\u0E40\u0E1E\u0E08",
+    appTypeDirectory: "\u0E44\u0E14\u0E40\u0E23\u0E01\u0E17\u0E2D\u0E23\u0E35",
+    appTypeHandbook: "\u0E04\u0E39\u0E48\u0E21\u0E37\u0E2D",
+    appTypePlatform: "\u0E41\u0E1E\u0E25\u0E15\u0E1F\u0E2D\u0E23\u0E4C\u0E21",
+    appLive: "\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E21",
+    appGitHub: "GitHub",
+
     // NON-restricted
     restrictedWord: "restricted",
     restrictedIntro: "\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19\u0E41\u0E25\u0E30\u0E1A\u0E17\u0E04\u0E27\u0E32\u0E21\u0E17\u0E35\u0E48\u0E40\u0E02\u0E35\u0E22\u0E19\u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E48\u0E27\u0E21\u0E40\u0E02\u0E35\u0E22\u0E19\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E31\u0E08\u0E09\u0E23\u0E34\u0E22\u0E30 \u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E14\u0E34\u0E08\u0E34\u0E17\u0E31\u0E25 \u0E41\u0E25\u0E30\u0E22\u0E38\u0E17\u0E18\u0E28\u0E32\u0E2A\u0E15\u0E23\u0E4C\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E32\u0E40\u0E0B\u0E35\u0E22\u0E19 \u0E14\u0E32\u0E27\u0E19\u0E4C\u0E42\u0E2B\u0E25\u0E14\u0E44\u0E14\u0E49\u0E40\u0E25\u0E22",
@@ -585,6 +686,30 @@ const I18N = {
     tonklaTitle: "\u6839\u82D7\u5B66\u6821\uFF1A\u9762\u5411K-12\u6559\u5E08\u7684\u8BBE\u8BA1\u601D\u7EF4",
     tonklaDesc: "\u4E0E\u6839\u82D7\u5B66\u6821\u5408\u4F5C\u7684\u5DE5\u4F5C\u574A\u7CFB\u5217\uFF0C\u57F9\u8BAD\u6559\u5E08\u5C06\u8BBE\u8BA1\u601D\u7EF4\u5E94\u7528\u4E8E\u8BFE\u7A0B\u8BBE\u8BA1\u3002",
     tonklaQuote: "\u201C\u6211\u4EEC\u4E0D\u518D\u6559\u5B66\u79D1\uFF0C\u5F00\u59CB\u89E3\u51B3\u95EE\u9898\u3002\u201D \u2014 \u6839\u82D7\u6559\u5E08",
+
+    // NON-theoretical
+    theoreticalWord: "theoretical",
+    theoreticalIntro: "\u8FD9\u4E9B\u4E0D\u662F\u6F14\u793A\u7A3F\u4E0A\u7684\u6982\u5FF5\u3002\u662F\u6211\u6784\u5EFA\u5E76\u4EA4\u4ED8\u7684\u5E94\u7528\u3001\u673A\u5668\u4EBA\u548C\u4EEA\u8868\u677F\u3002\u90E8\u5206\u5728\u751F\u4EA7\u73AF\u5883\u8FD0\u884C\u3002\u5168\u90E8\u89E3\u51B3\u5B9E\u9645\u95EE\u9898\u3002",
+    app1Title: "Tech Monitor",
+    app1Desc: "\u5B9E\u65F6\u57CE\u5E02\u8FD0\u8425\u4EEA\u8868\u677F\u3002\u7EFC\u5408\u5730\u56FE\u3001\u5E02\u573A\u6570\u636E\u3001\u51B2\u7A81\u8DDF\u8E2A\u3001\u6C14\u5019\u4FE1\u53F7\u548C\u7ED3\u6784\u5316\u60C5\u62A5\u7B80\u62A5\u3002",
+    app2Title: "City Reporter AI Bot",
+    app2Desc: "\u53CC\u5E73\u53F0\u5E02\u6C11\u53C2\u4E0E\u5DE5\u5177\uFF08LINE + Telegram\uFF09\u3002\u5E02\u6C11\u62CD\u7167\u62A5\u544A\u95EE\u9898\uFF0CAI\u63D0\u53D6\u4F4D\u7F6E\u3001\u5206\u7C7B\u4E25\u91CD\u6027\u3001\u8DEF\u7531\u5230\u54CD\u5E94\u4EBA\u3002",
+    app3Title: "ASEAN Smart Cities Network",
+    app3Desc: "\u4E1C\u76DF\u667A\u6167\u57CE\u5E02\u7F51\u7EDC\u7535\u5F71\u5F0F\u7740\u9646\u9875\uFF1A\u57CE\u5E02\u8109\u640F\u4EEA\u8868\u677F\u3001\u516C\u5171\u6307\u6807\u3001\u4EBA\u7269\u6863\u6848\u3002",
+    app4Title: "Smart City Tech Hunt",
+    app4Desc: "160+\u667A\u6167\u57CE\u5E02\u89E3\u51B3\u65B9\u6848\u76EE\u5F55\uFF0C\u4E03\u4E2A\u9886\u57DF\uFF0C\u5B9E\u65F6Google Trends\u8109\u640F\u3002",
+    app5Title: "\u5E02\u6C11\u4F18\u5148\u57CE\u5E02\u624B\u518C",
+    app5Desc: "\u4E1C\u76DF CSCO \u4EA4\u4E92\u5F0F\u624B\u518C\uFF0C\u5728\u6D1B\u5764\u5E9C\u771F\u5B9E\u6D2A\u6C34\u4E2D\u953B\u9020\u3002",
+    app6Title: "Air DnD",
+    app6Desc: "\u66FC\u8C37\u591C\u751F\u6D3B\u53D1\u73B0\u5E73\u53F0\uFF0C\u5B9E\u65F6\u5217\u8868\u8986\u76D6\u548C\u5F39\u6027\u5907\u4EFD\u6570\u636E\u3002",
+    appTypeDashboard: "\u4EEA\u8868\u677F",
+    appTypeBot: "AI Bot",
+    appTypeLanding: "\u7740\u9646\u9875",
+    appTypeDirectory: "\u76EE\u5F55",
+    appTypeHandbook: "\u624B\u518C",
+    appTypePlatform: "\u5E73\u53F0",
+    appLive: "\u8BBF\u95EE",
+    appGitHub: "GitHub",
 
     // NON-restricted
     restrictedWord: "restricted",
@@ -746,6 +871,77 @@ function renderStealIdeas(lang) {
 }
 
 /* ══════════════════════════════════
+   APPS
+   ══════════════════════════════════ */
+
+function renderApps(lang) {
+  const container = document.getElementById("app-grid");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const liveLabel = textFor(lang, "appLive");
+  const ghLabel = textFor(lang, "appGitHub");
+
+  BUILT_APPS.forEach(app => {
+    const card = document.createElement("div");
+    card.className = "app-card stagger";
+
+    const header = document.createElement("div");
+    header.className = "app-card-header";
+
+    const h4 = document.createElement("h4");
+    h4.textContent = textFor(lang, app.titleKey);
+
+    const typeBadge = document.createElement("span");
+    typeBadge.className = "app-card-type";
+    typeBadge.textContent = textFor(lang, app.typeKey);
+
+    header.appendChild(h4);
+    header.appendChild(typeBadge);
+
+    const p = document.createElement("p");
+    p.textContent = textFor(lang, app.descKey);
+
+    const stack = document.createElement("div");
+    stack.className = "app-card-stack";
+    app.stack.forEach(tech => {
+      const s = document.createElement("span");
+      s.textContent = tech;
+      stack.appendChild(s);
+    });
+
+    card.appendChild(header);
+    card.appendChild(p);
+    card.appendChild(stack);
+
+    if (app.url || app.github) {
+      const links = document.createElement("div");
+      links.className = "app-card-links";
+      if (app.url) {
+        const a = document.createElement("a");
+        a.href = app.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = liveLabel;
+        links.appendChild(a);
+      }
+      if (app.github) {
+        const a = document.createElement("a");
+        a.href = app.github;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.className = app.url ? "app-link-secondary" : "";
+        a.textContent = ghLabel;
+        links.appendChild(a);
+      }
+      card.appendChild(links);
+    }
+
+    container.appendChild(card);
+  });
+}
+
+/* ══════════════════════════════════
    DOWNLOADS
    ══════════════════════════════════ */
 
@@ -838,6 +1034,7 @@ function setLanguage(lang) {
   renderStealIdeas(selected);
   renderPublications(selected);
   renderDownloads(selected);
+  renderApps(selected);
 }
 
 function setupLanguage() {
