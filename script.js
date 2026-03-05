@@ -283,30 +283,30 @@ const BUILT_APPS = [
 
 const I18N = {
   en: {
-    heroTagline: "City systems designer. Anthropologist. Novelist.",
+    heroTagline: "Designs city systems. Studies people. Writes novels. Ships code.",
     journeyAsean: "ASEAN Network",
 
     // NON-fiction
     s1word: "fiction",
-    s1p1: "Every chapter was tested in the field before it was taught in a room.",
+    s1p1: "Field-tested before classroom-taught. Every chapter earned its place.",
 
     ch1title: "Architecture as discipline",
-    ch1body: "Training at KMITL (first-class honors) built an early conviction: elegant ideas are useless if they cannot survive social reality. Then MIT and Oxford sharpened the edge\u2009\u2014\u2009systems thinking meets philosophical rigor.",
+    ch1body: "KMITL (first-class honors) built conviction early: if an idea can\u2019t survive social reality, it\u2019s decoration. MIT sharpened the systems thinking. Oxford added philosophical rigor.",
     ch2title: "Living inside the research",
-    ch2body: "Three years in Shanghai\u2019s disappearing lilong neighborhoods. Not visiting\u2009\u2014\u2009living. Mapping stories urban planners were too busy to hear. Families mid-eviction, a city rewriting itself overnight. Harvard PhD fieldwork that produced frameworks, not just papers.",
-    ch3title: "From ethnography to published frameworks",
-    ch3body: "Research translated into journals on gentrification, heritage, and modernist urban design, connecting social theory to city practice. Published in Asian Anthropology, Journal of Urban Design, and Journal of Urbanism.",
-    ch4title: "Policy translated into operating systems",
-    ch4body: "At depa and SLIC, strategy shifted from slide language to governance workflow, pilot design, and measurable service outcomes across all 77 Thai provinces. 120+ technology projects delivered. 5,000+ officials retrained.",
-    ch5title: "ASEAN crisis operations",
-    ch5body: "In real flood conditions, teams tested design-thinking toolkits against live incident load. The method proved operational, not theoretical. Workshops executed under disruption in Nakhon Si Thammarat.",
+    ch2body: "Three years in Shanghai\u2019s disappearing lilong neighborhoods. Not visiting\u2009\u2014\u2009living. Families mid-eviction, a city rewriting itself overnight. Harvard PhD fieldwork that produced frameworks, not just papers.",
+    ch3title: "Ethnography \u2192 published frameworks",
+    ch3body: "Research became journals on gentrification, heritage, and modernist urbanism. Asian Anthropology, Journal of Urban Design, Journal of Urbanism. Theory connected to city practice.",
+    ch4title: "Policy \u2192 operating systems",
+    ch4body: "At depa and SLIC, strategy left the slide deck. Governance workflows, pilot design, measurable outcomes across 77 Thai provinces. 120+ tech projects delivered. 5,000+ officials retrained.",
+    ch5title: "Crisis operations, ASEAN-wide",
+    ch5body: "Real flood conditions in Nakhon Si Thammarat. Design-thinking toolkits tested against live incident load. The method proved operational\u2009\u2014\u2009not theoretical.",
 
     // NON-stop
     s2word: "stop",
-    s2p1: "Non builds city systems that actually work. At depa and SLIC, he translates \u201Csmart city\u201D from conference slides into street-level reality. His method: start from pain points, not trend decks. Design incentives before interfaces. Prototype fast, scale only what survives contact with the real world.",
+    s2p1: "Non builds city systems that actually work. \u201CSmart city\u201D leaves the conference slides and hits the street. Method: start from pain points, not trend decks. Design incentives before interfaces. Scale only what survives contact with reality.",
 
     scthcdpTitle: "Thailand Smart City Data Platform (SCTHCDP)",
-    scthcdpDesc: "SCTHCDP was built to end waiting. It turns fragmented city noise into assignable operations with measurable outcomes.",
+    scthcdpDesc: "Built to end waiting. Fragmented city noise becomes assignable operations with measurable outcomes.",
     scthcdpF1: "Unified ingestion from LINE, IoT, municipal data, and field reports.",
     scthcdpF2: "AI-native triage that classifies incidents and routes ownership quickly.",
     scthcdpF3: "No-code workflow logic for rapid piloting and policy iteration.",
@@ -315,7 +315,7 @@ const I18N = {
 
     cscoKicker: "Case study",
     cscoTitle: "ASEAN CSCO: designed during the flood, not after it.",
-    cscoDesc: "A workshop executed under real disruption in Nakhon Si Thammarat, combining design thinking, crisis response, and operating prototypes. Published outcomes reported faster issue response, expanded citizen usage, and practical warning windows that changed field decisions.",
+    cscoDesc: "Workshop executed under real disruption in Nakhon Si Thammarat. Design thinking meets crisis response meets operating prototypes. Results: faster response, expanded citizen usage, warning windows that changed field decisions.",
     cscoM1: "active users",
     cscoM2: "average response time",
     cscoM3: "warning window",
@@ -323,14 +323,14 @@ const I18N = {
 
     // NON-trivial (Research)
     s6word: "trivial",
-    s6intro: "Three lines of inquiry that continuously feed strategy, product, and institutional design. Not a CV dump\u2009\u2014\u2009active research threads.",
+    s6intro: "Three active threads feeding strategy, product, and institutional design. Not a CV dump.",
 
     r1title: "Shanghai gentrification + heritage preservation",
-    r1desc: "How communities negotiate displacement, memory, and new urban identities under rapid modernization. Fieldwork-driven, policy-facing.",
-    r2title: "Japan + modernist urbanism: design ideals under pressure",
-    r2desc: "From Tokyo retrofits to modernist planning debates\u2009\u2014\u2009how high-design intent survives constraints from mobility, behavior, and governance.",
-    r3title: "From research to operating protocol",
-    r3desc: "This line converts theory into service architecture: dashboards, crisis protocols, and inter-agency coordination that can run in real municipal conditions.",
+    r1desc: "Communities negotiating displacement, memory, and new identities under rapid modernization. Fieldwork-driven. Policy-facing.",
+    r2title: "Japan + modernist urbanism under pressure",
+    r2desc: "How high-design intent survives constraints from mobility, behavior, and governance. Tokyo retrofits to planning debates.",
+    r3title: "Research \u2192 operating protocol",
+    r3desc: "Theory converted into service architecture: dashboards, crisis protocols, inter-agency coordination running in real municipal conditions.",
 
     pub1: "Making Sense of Heritage and Space in Shanghai (2023)",
     pub2: "Urban Regeneration in China: Heritage, Preservation and Growth (2019)",
@@ -343,14 +343,14 @@ const I18N = {
 
     // NON-sense?
     s3word: "sense?",
-    s3p1: "At night, he writes speculative fiction. Designated Survivor: Bangkok\u2009\u2014\u2009a political thriller where the city\u2019s own smart systems become the battleground. Because the best way to stress-test infrastructure is to blow it up on paper first.",
-    s3p2: "He also maintains nonharvard, a long-running personal blog on cities, culture, and the occasional existential crisis. Writing is where his strategy brain meets narrative craft.",
+    s3p1: "At night: speculative fiction. Designated Survivor: Bangkok\u2009\u2014\u2009a political thriller where the city\u2019s smart systems become the battleground. Best way to stress-test infrastructure? Blow it up on paper first.",
+    s3p2: "Also maintains nonharvard\u2009\u2014\u2009a long-running blog on cities, culture, and the occasional existential crisis. Strategy brain meets narrative craft.",
     s3link1: "Read the novel on Substack",
     s3link2: "Read the blog",
 
     // NON-proprietary
     s4word: "proprietary",
-    s4intro: "These are real frameworks I use. Copy the JSON, fork the concept, build something better. No permission needed.",
+    s4intro: "Real frameworks. Copy the JSON. Fork the concept. Build something better. No permission needed.",
     steal1Title: "City Data Platform",
     steal1Desc: "Full-stack city dashboard with real-time data layers and citizen feedback loops.",
     steal2Title: "Design Thinking Workshop Kit",
@@ -368,7 +368,7 @@ const I18N = {
 
     // NON-conventional
     conventionalWord: "conventional",
-    conventionalIntro: "Bringing design thinking to people who don\u2019t expect it. From bankers to nurses, from government officials to school principals\u2009\u2014\u2009Non facilitates strategic workshops that translate abstract methods into actionable operations.",
+    conventionalIntro: "Design thinking for people who don\u2019t expect it. Bankers to nurses, government officials to school principals. Abstract methods translated into actionable operations.",
     audBanks: "Banks",
     audGov: "Government",
     audPublic: "Public health",
@@ -385,19 +385,19 @@ const I18N = {
 
     // NON-theoretical
     theoreticalWord: "theoretical",
-    theoreticalIntro: "These aren\u2019t concepts on slides. They\u2019re apps, bots, and dashboards I built and shipped. Some run in production. All solve real problems.",
+    theoreticalIntro: "Not on slides. In production. Apps, bots, and dashboards I built and shipped.",
     app1Title: "Tech Monitor",
-    app1Desc: "Real-time urban operations dashboard. Combines map layers, market data, conflict tracking, climate signals, and structured intelligence briefings into one operating picture.",
+    app1Desc: "Real-time urban operations dashboard. Map layers, market data, conflict tracking, climate signals, intelligence briefings\u2009\u2014\u2009one operating picture.",
     app2Title: "City Reporter AI Bot",
-    app2Desc: "Dual-platform civic engagement tool (LINE + Telegram). Citizens report city problems with photos; AI extracts location, classifies severity, routes to responders.",
+    app2Desc: "Civic engagement on LINE + Telegram. Citizens report problems with photos; AI extracts location, classifies severity, routes to responders.",
     app3Title: "ASEAN Smart Cities Network",
-    app3Desc: "Cinematic landing page for ASCN: city pulse dashboards, public metrics, people profiles, and source materials in one scrolling experience.",
+    app3Desc: "Cinematic landing for ASCN. City pulse dashboards, public metrics, people profiles, source materials\u2009\u2014\u2009one scroll.",
     app4Title: "Smart City Tech Hunt",
-    app4Desc: "Directory of 160+ smart city solutions across seven domains with live Google Trends pulse, partner logos, and curated resource library.",
+    app4Desc: "160+ smart city solutions across seven domains. Live Google Trends pulse, partner logos, curated resource library.",
     app5Title: "Citizen-First City Handbook",
-    app5Desc: "Interactive ASEAN CSCO playbook forged under real flood pressure. Real stories and tools from city practitioners in Nakhon Si Thammarat.",
+    app5Desc: "ASEAN CSCO playbook forged under real flood pressure. Stories and tools from city practitioners in Nakhon Si Thammarat.",
     app6Title: "Air DnD",
-    app6Desc: "Bangkok after-dark discovery platform with live listing coverage, resilient fallback data, and a polished city-first experience.",
+    app6Desc: "Bangkok after-dark discovery. Live listings, resilient fallback data, polished city-first experience.",
     appTypeDashboard: "Dashboard",
     appTypeBot: "AI Bot",
     appTypeLanding: "Landing page",
@@ -409,15 +409,15 @@ const I18N = {
 
     // NON-restricted
     restrictedWord: "restricted",
-    restrictedIntro: "Reports and articles I authored or co-authored on smart cities, digital government, and ASEAN urban strategy. Download freely.",
+    restrictedIntro: "Reports I authored on smart cities, digital government, and ASEAN urban strategy. Take them.",
     dl1Title: "ASCN Smart City Report 2019",
-    dl1Desc: "ASEAN Smart Cities Network status report, co-authored with depa Thailand. Covers frameworks, KPIs, and case studies across 26 pilot cities.",
-    dl2Title: "Smart City Initiatives in Thailand (Hitachi Review)",
-    dl2Desc: "Peer-reviewed article on Thailand\u2019s smart city data platform architecture and provincial deployment strategy.",
+    dl1Desc: "ASCN status report, co-authored with depa. Frameworks, KPIs, case studies across 26 pilot cities.",
+    dl2Title: "Smart City Thailand (Hitachi Review)",
+    dl2Desc: "Peer-reviewed. Data platform architecture and provincial deployment strategy.",
     dl3Title: "The ASEAN Magazine Interview",
-    dl3Desc: "Feature interview on Non\u2019s role in ASEAN digital governance, smart city policy, and cross-border urban collaboration.",
+    dl3Desc: "Feature interview on ASEAN digital governance, smart city policy, cross-border collaboration.",
     dl4Title: "Smart City Primer (US\u2013depa)",
-    dl4Desc: "Comprehensive primer on smart city concepts, technology stacks, and implementation frameworks for Thai municipal leaders.",
+    dl4Desc: "Concepts, technology stacks, implementation frameworks for Thai municipal leaders.",
     dlDownload: "Download",
 
     // NON-ordinary
@@ -430,16 +430,17 @@ const I18N = {
 
     // Proof
     proofWord: "negotiable",
-    proofIntro: "From command-room whiteboards to international stages. Execution left visible traces in policy, operations, and coalition work.",
+    proofIntro: "Command-room whiteboards to international stages. Execution leaves traces.",
 
     // NON-hiding
     s5word: "hiding",
-    s5intro: "If the mission is hard, talk directly.",
+    s5intro: "Hard mission? Talk directly.",
     contactDirect: "Direct",
     contactVerify: "Verify",
 
     // Footer
     footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93",
+    footerNote: "No templates were harmed. Assembled by hand.",
     footerCV: "CV (English)",
     footerCVThai: "CV (Thai)",
     bkkTime: "Bangkok"
@@ -594,6 +595,7 @@ const I18N = {
     contactVerify: "\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A",
 
     footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93",
+    footerNote: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E40\u0E17\u0E21\u0E40\u0E1E\u0E25\u0E15\u0E43\u0E14\u0E16\u0E39\u0E01\u0E17\u0E33\u0E23\u0E49\u0E32\u0E22 \u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E14\u0E49\u0E27\u0E22\u0E21\u0E37\u0E2D",
     footerCV: "CV (\u0E2D\u0E31\u0E07\u0E01\u0E24\u0E29)",
     footerCVThai: "CV (\u0E44\u0E17\u0E22)",
     bkkTime: "\u0E01\u0E23\u0E38\u0E07\u0E40\u0E17\u0E1E"
@@ -741,6 +743,7 @@ const I18N = {
     contactVerify: "\u9A8C\u8BC1\u6E20\u9053",
 
     footer: "\u00A9 Non Arkaraprasertkul \u00B7 \u0E19\u0E19 \u0E2D\u0E31\u0E04\u0E23\u0E1B\u0E23\u0E30\u0E40\u0E2A\u0E23\u0E34\u0E10\u0E01\u0E38\u0E25 \u00B7 \u519C\u00B7\u963F\u5361\u62C9\u5E15\u8428\u7279\u5E93",
+    footerNote: "\u6CA1\u6709\u6A21\u677F\u53D7\u5230\u4F24\u5BB3\u3002\u624B\u5DE5\u7EC4\u88C5\u3002",
     footerCV: "CV\uFF08\u82F1\u6587\uFF09",
     footerCVThai: "CV\uFF08\u6CF0\u6587\uFF09",
     bkkTime: "\u66FC\u8C37"
